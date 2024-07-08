@@ -1,0 +1,40 @@
+﻿@model ProjetoDavin.Models.Contato
+
+@{
+  ViewData["Title"] = "Detalhes do Contato";
+}
+
+<h1>Detalhes do Contato</h1>
+
+<div>
+  <h4>Contato</h4>
+  <hr />
+  <dl class="row">
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Nome)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Nome)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Idade)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Idade)
+    </dd>
+    <dt class="col-sm-2">
+      Telefones
+    </dt>
+    <dd class="col-sm-10">
+      @foreach (var telefone in Model.Telefones)
+      {
+        <p>@telefone.Numero</p>
+      }
+    </dd>
+  </dl>
+</div>
+
+<div>
+  <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+  <a asp-action="Index">Voltar</a>
+</div>

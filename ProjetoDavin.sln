@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDavin", "ProjetoDavin\ProjetoDavin.csproj", "{23920EC7-3DAB-4089-9708-8BA6B786DA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23920EC7-3DAB-4089-9708-8BA6B786DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23920EC7-3DAB-4089-9708-8BA6B786DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23920EC7-3DAB-4089-9708-8BA6B786DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23920EC7-3DAB-4089-9708-8BA6B786DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {053ADEF7-B4FA-4CA3-A2E9-0BC0D2506432}
+	EndGlobalSection
+EndGlobal
